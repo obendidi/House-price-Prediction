@@ -18,3 +18,7 @@ Librairies: Theano , Scikit-learn-preprocessing
        
 LR.py: uses the same algorithme as '1.py' but iterated over a number of learning-rates between(10 and 0.001) and reagularization-parametres between (10 and 0.001)
 to find the best combination of alpha and lambda to minimize the cost function 
+
+The csv File contains the predicted sale price of the test-set
+
+Got a score of 0.16786 on the kaggle competition leader board (evaluated on Root-Mean-Squared-Error)
